@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.bromagindia.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_dining"
+            app:destination="@id/navigation_dining" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_Onlineorder"
+        android:name="com.example.bromagindia.ui.onlineorder.OnlineOrderFragment"
+        android:label="Online Order"
+        tools:layout="@layout/fragment_online_order" />
+
+    <fragment
+        android:id="@+id/navigation_dining"
+        android:name="com.example.bromagindia.ui.dining.DinigFragment"
+        android:label="Dining"
+        tools:layout="@layout/fragment_dining" />
+
+    <fragment
+        android:id="@+id/navigation_callfororder"
+        android:name="com.example.bromagindia.ui.callfororder.CallForOrderFragment"
+        android:label="Call For Order"
+        tools:layout="@layout/fragment_call_for_order" />
+
+    <fragment
+        android:id="@+id/navigation_takeaway"
+        android:name="com.example.bromagindia.ui.takeaway.TakeAwayFragment"
+        android:label="Take Away"
+        tools:layout="@layout/fragment_takeaway" />
+
+
+</navigation>

@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BromagIndia" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#CD5C08</item>
+        <item name="colorPrimaryVariant">#CD5C08</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#CD5C08</item>
+        <item name="colorSecondaryVariant">#CD5C08</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#000000</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Spinner" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+    <item name="paddingStart">0dp</item>
+    <item name="paddingEnd">0dp</item>
+    <item name="android:textColorHint">#9999B7</item>
+    <item name="android:fontFamily">@font/comfortaa_regular</item>
+    <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.Light.SearchView">
+        <item name="android:textSize">17sp</item>
+        <item name="contentPaddingBottom">-10dp</item>
+        <item name="fontFamily">@font/comfortaa_semi_bold</item>
+        <item name="android:textColorHint">#9e9e9e</item>
+        <item name="android:editTextColor">#000000</item>
+        <item name="tint">#9e9e9e</item>
+    </style>
+
+</resources>

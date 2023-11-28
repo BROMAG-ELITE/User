@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true"
+    android:elevation="10dp"
+    android:layout_marginBottom="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            app:cardCornerRadius="8dp">
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ad1"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tableNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Table 01"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#3F3F3F"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/comfortaa_bold"/>
+        <TextView
+            android:id="@+id/seater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 Seater"
+            android:textSize="10sp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="30dp"
+            android:textColor="#999999"
+            android:fontFamily="@font/comfortaa_medium"/>
+        <TextView
+            android:id="@+id/btn_booknow"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Book Now"
+            android:background="@drawable/table_btm_bg"
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/comfortaa_medium"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

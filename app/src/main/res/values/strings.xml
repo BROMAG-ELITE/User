@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BROMAG ELITE</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="refundcancellation"><u>Refund and Cancellation Policy</u></string>
+    <string name="apiKey">AIzaSyA-MIIqtigXlaf-BCHVzfvqYe9MK_TwWK4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bromag_maps">BromagMapsActivity</string>
+</resources>
